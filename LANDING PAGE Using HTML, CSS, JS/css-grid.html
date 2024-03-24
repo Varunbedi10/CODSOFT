@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+  </head>
+  <style>
+    .el-1 {
+      background-color: blueviolet;
+    }
+    .el-2 {
+      background-color: blue;
+    }
+    .el-3 {
+      background-color: brown;
+    }
+    .el-4 {
+      background-color: chartreuse;
+    }
+    .el-5 {
+      background-color: chocolate;
+    }
+    .el-6 {
+      background-color: darkgoldenrod;
+    }
+    .el-7 {
+      background-color: darkgreen;
+    }
+    .el-8 {
+      background-color: yellow;
+    }
+    .container-1 {
+      font-family: sans-serif;
+      background-color: antiquewhite;
+      font-size: 30px;
+      margin: 40px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    }
+
+    .qw-1 {
+      background-color: aqua;
+    }
+    .qw-2 {
+      background-color: rgb(255, 0, 0);
+    }
+    .qw-3 {
+      background-color: rgb(255, 247, 0);
+    }
+    .qw-4 {
+      background-color: rgb(4, 255, 0);
+    }
+    .qw-5 {
+      background-color: rgb(0, 89, 255);
+    }
+    .qw-6 {
+      background-color: rgb(238, 0, 255);
+    }
+    .qw-7 {
+      background-color: rgb(255, 0, 153);
+    }
+    .qw-8 {
+      background-color: rgb(153, 0, 255);
+    }
+    .container-2 {
+      color: white;
+      font-family: sans-serif;
+      font-size: 30px;
+      margin: 40px;
+      background-color: black;
+      width: 700px;
+      height: 600px;
+      display: grid;
+      grid-template-columns: 125px 125px 125px 125px;
+      grid-template-rows: 100px 100px;
+    }
+  </style>
+  <body>
+    <div class="container-1">
+      <div class="el-1">HTML</div>
+      <div class="el-2">HTML</div>
+      <div class="el-3">HTML</div>
+      <div class="el-4">HTML</div>
+      <div class="el-5">HTML</div>
+      <div class="el-6">HTML</div>
+      <div class="el-7">HTML</div>
+      <div class="el-8">HTML</div>
+    </div>
+    <div class="container-2">
+      <div class="qw-1">1</div>
+      <div class="qw-2">1</div>
+      <div class="qw-3">1</div>
+      <div class="qw-4">1</div>
+      <div class="qw-5">1</div>
+      <div class="qw-6">1</div>
+      <div class="qw-7">1</div>
+      <div class="qw-8">1</div>
+    </div>
+  </body>
+</html>
